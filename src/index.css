@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+}
+a {
+  color: #00B7FF;
+}
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.el-header, .el-footer {
+  background-color: #B3C0D1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+@keyframes move-el-card {
+  0%   {margin: 5px 25px 5px -15px;}
+  25%  {margin: 5px 20px 5px -10px;}
+  50%  {margin: 5px 15px 5px -5px;}
+  75%  {margin: 5px 10px 5px 0px;}
+  100% {margin: 5px;}
+}
+.el-card-full {
+  height: calc(100% - 15px);
+  animation: move-el-card 0.3s;
+  margin: 5px;
+}
+.el-card-full .el-card__body {
+  padding: 0;
+  height: inherit;
+}
+.el-menu:not(.el-menu--collapse) {
+  width: 200px;
+}
