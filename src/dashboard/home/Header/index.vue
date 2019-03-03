@@ -1,5 +1,5 @@
 <template>
-  <el-header style="height: 44px; position: relative;">
+  <el-header style="height: 44px; position: relative; background-color: #B3C0D1; color: #333; text-align: center; line-height: 60px;">
     <el-button
       @click="changeIsCollapse"
       style="position: absolute; top: 7px; left: 7px;"

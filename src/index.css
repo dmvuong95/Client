@@ -23,12 +23,6 @@ a {
   margin-right: auto;
   width: 400px;
 }
-.el-header, .el-footer {
-  background-color: #B3C0D1;
-  color: #333;
-  text-align: center;
-  line-height: 60px;
-}
 @keyframes move-el-card {
   0%   {margin: 5px 25px 5px -15px;}
   25%  {margin: 5px 20px 5px -10px;}
@@ -43,8 +37,8 @@ a {
 }
 .el-card-full .el-card__body {
   padding: 0;
-  height: inherit;
+  height: 100%;
 }
 .el-menu:not(.el-menu--collapse) {
-  width: 200px;
+  width: 165px;
 }
