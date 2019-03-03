@@ -1,19 +1,32 @@
-# checker
+# Vuejs Server Rendering Project
 
-> A Vue.js project
+> A Vue.js server rendering project by [Minh Vuong](mailto:dmvuong95@gmail.com)
 
 ## Build Setup
+### Install dependencies
+``` bash
+npm install
+```
+
+### Build for development or production with ExpressJS Server
 
 ``` bash
-# install dependencies
-npm install
+# install gulp-cli
+npm install gulp-cli -g
+# config index template and assets root directory in "config/index.js"
+notepad ./config/index.js
+# build for development
+gulp
+# build for production
+gulp build
+```
 
+### Another build
+``` bash
 # serve with hot reload at localhost:8080
 npm run dev
-
 # build for production with minification
 npm run build
-
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
